@@ -12,7 +12,6 @@ const App = () => {
   return (
     <div>
       <Header />
-      {/* <Card /> */}
       {dataElements}
     </div>
   );

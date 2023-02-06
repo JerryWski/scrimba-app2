@@ -7,7 +7,7 @@ const Card = (props) => {
       <div className={styles.container}>
         <img
           className={styles.fuji_img}
-          src="https://source.unsplash.com/WLxQvbMyfas"
+          src={props.imageUrl}
           alt="mount-fuji"
         />
         <div className={styles.container__data}>
@@ -17,20 +17,18 @@ const Card = (props) => {
               src={require("../images/position_dot.png")}
               alt="red_dot"
             />{" "}
-            <span className={styles.country__name}>JAPAN</span>{" "}
+            <span className={styles.country__name}>{props.location}</span>{" "}
             <a
               className={styles.link}
-              href="https://goo.gl/maps/1DGM5WrWnATgkSNB8"
+              href={props.googleMapsUrl}
             >
               view on Google Maps
             </a>
           </div>
-          <h1 className={styles.title}>Mount Fuji</h1>
-          <p className={styles.period__time}>12 Jan, 2021 - 24 Jan, 2021</p>
+          <h1 className={styles.title}>{props.title}</h1>
+          <p className={styles.period__time}>{props.startDate} - {props.endDate}</p>
           <p className={styles.description__offer}>
-            Mount Fuji is the tallest mountain in Japan, standing at 3,776
-            meters (12,380 feet). Mount Fuji is the single most popular tourist
-            site in Japan, for both Japanese and foreign tourists.
+            {props.description}
           </p>
         </div>
       </div>
