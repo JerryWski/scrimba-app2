@@ -3,5 +3,17 @@
     background-color: #F55A5A;
     width: 100%;
     border-radius: 10px 10px 0px 0;
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__text {
+    padding: 5px;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 14.46px;
+    line-height: 18px;
+    letter-spacing: - 0.07;
 }
