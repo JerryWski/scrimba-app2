@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    padding: 8px;
+    padding: 20px;
 }
 
 .container {
@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     height: 168px;
-    margin: 36px 39px 0px 39px;
+    margin: 0 39px 0px 39px;
 }
 .fuji_img {
     width: 126px;
