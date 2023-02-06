@@ -1,0 +1,14 @@
+.card_list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+  }
+.app_container {
+position: relative;
+width: 550px;
+height: 853px;
+background: #FFFFFF;
+border-radius: 8.95px;
+overflow: hidden;
+}
