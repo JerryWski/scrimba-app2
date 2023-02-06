@@ -4,7 +4,10 @@ import Header from "./components/Header";
 const App = () => {
   return (
     <div>
-      <Card></Card>
+      <Header />
+      <Card />
+      <Card />
+      
     </div>
   );
 };
